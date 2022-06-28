@@ -1,7 +1,6 @@
 // write code for Welcome component here
 import React, {Component, useState} from "react";
-
-export default function Welcome(props){
+function Welcome(props){
     const [data, setData] = useState(
        {name: props.name}
     );
@@ -12,3 +11,6 @@ export default function Welcome(props){
       </div>
     )
 }
+
+
+export default Welcome
